@@ -7,7 +7,7 @@
       HST777 x Luca Benedetti
       https://linktr.ee/lucaunliked
     -->
-    <title>Happy Squid Team - Dota 2 Wiki</title>
+    <title>HST777 - Dota 2 Wiki</title>
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
@@ -21,6 +21,7 @@
     <meta name="msapplication-TileColor" content="#da532c" />
     <meta name="theme-color" content="#ffffff" />
     <link rel="stylesheet" href="css/style.css" />
+    <script src="js/script.js"></script>
   </head>
   <body>
     <header>
@@ -28,7 +29,16 @@
       <span class="header-subtitle">Dota 2</span>
     </header>
     <main>
-      <section class="navigation-column"></section>
+      <nav class="navigation-column">
+        <div class="nav-container">
+          <div class="nav-title">CONTENTS</div>
+          <div id="button-history" class="nav-button">History</div>
+          <div id="button-timeline" class="nav-button">Timeline</div>
+          <div id="button-player-roster" class="nav-button">Player roster</div>
+          <div id="button-results" class="nav-button">Results</div>
+          <div id="button-gallery" class="nav-button">Gallery</div>
+        </div>
+      </nav>
       <section class="main-content">
         <section>
           <h1>Happy Squid Team 777</h1>
@@ -91,8 +101,8 @@
           </aside>
           <section class="main-column">
             <span>L'<b>Happy Squid Team 777</b> è un'organizzazione esport attiva principalmente in Dota 2.</span>
-            <h1>History</h1>
-            <h1>Timeline</h1>
+            <h1 id="title-history">History</h1>
+            <h1 id="title-timeline">Timeline</h1>
             <nav class="tabs-section">
               <div class="tab"><b>2023</b></div>
               <div class="tab-separator"></div>
@@ -102,7 +112,7 @@
                 <li>Marzo - Ritrovo speciale 2022</li>
               </ul>
             </div>
-            <h1>Player Roster</h1>
+            <h1 id="title-player-roster">Player Roster</h1>
             <h1 class="no-line">Active</h1>
             <table>
               <tr>
@@ -217,7 +227,7 @@
                 <td class="table-align-center">??-??-2016</td>
               </tr>
             </table>
-            <h1>Results</h1>
+            <h1 id="title-results">Results</h1>
             <nav class="tabs-section">
               <div class="tab"><b>Achievements</b></div>
               <div class="tab-separator"></div>
@@ -258,7 +268,7 @@
                 </tr>
               </table>
             </div>
-            <h1>Gallery</h1>
+            <h1 id="title-gallery">Gallery</h1>
             <h1 class="no-line">Rosters</h1>
             <div class="pics-container">
               <div class="img-container">
@@ -286,5 +296,6 @@
         </section>
       </section>
     </main>
+    <footer>HST777 x&nbsp;<a href="https://linktr.ee/lucaunliked">Luca Benedetti</a></footer>
   </body>
 </html>
