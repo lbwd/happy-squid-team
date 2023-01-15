@@ -354,7 +354,32 @@ footer a {
   }
 
   aside {
+    min-width: auto;
     max-width: 100%;
     margin-bottom: 20px;
+    margin-left: 0;
+  }
+
+  table {
+    width: 100%;
+    min-width: auto;
+  }
+
+  table tr {
+    padding: 20px 0;
+    display: flex;
+    flex-direction: column;
+  }
+
+  table tr td {
+    text-align: center;
+  }
+
+  .tab-content table tr {
+    height: auto;
+  }
+
+  .pics-container > .img-container {
+    height: 200px;
   }
 }
