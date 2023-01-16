@@ -346,6 +346,10 @@ footer a {
   .navigation-column {
     display: none;
   }
+
+  .main-content {
+    border-left: 10px solid #e5e5e5;
+  }
 }
 
 @media (max-width: 1000px) {
@@ -358,6 +362,10 @@ footer a {
     max-width: 100%;
     margin-bottom: 20px;
     margin-left: 0;
+  }
+
+  aside .tab-separator:first-child {
+    display: none;
   }
 
   table {
@@ -380,6 +388,19 @@ footer a {
   }
 
   .pics-container > .img-container {
-    height: 200px;
+    height: auto;
+  }
+
+  .main-content {
+    border-left: 0;
+    border-right: 0;
+  }
+
+  footer {
+    border: 0;
+  }
+
+  .pics-container > .img-container > img {
+    width: 100%;
   }
 }
