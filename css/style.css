@@ -403,4 +403,9 @@ footer a {
   .pics-container > .img-container > img {
     width: 100%;
   }
+
+  .tab-content table .first-place {
+    padding-left: 0;
+    padding-right: 15px;
+  }
 }
