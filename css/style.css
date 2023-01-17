@@ -215,7 +215,7 @@ table tr:last-child {
 
 table th,
 table td {
-  padding: 5px 20px 5px 5px;
+  padding: 5px 20px 5px 20px;
 }
 
 .table-align-center {
@@ -402,10 +402,5 @@ footer a {
 
   .pics-container > .img-container > img {
     width: 100%;
-  }
-
-  .tab-content table .first-place {
-    padding-left: 0;
-    padding-right: 15px;
   }
 }
