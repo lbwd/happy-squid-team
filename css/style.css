@@ -222,7 +222,7 @@ table td {
   text-align: center;
 }
 
-.tr-white {
+table tr:nth-child(2n + 3) {
   background-color: #ffffff;
 }
 
