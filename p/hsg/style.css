@@ -1,0 +1,43 @@
+body {
+  margin: 0;
+  font-size: 15px;
+  font-family: 'Open Sans', sans-serif;
+  color: #212529;
+  background-color: #ded8cc;
+  display: flex;
+  place-content: center;
+  height: 100vh;
+}
+
+.hsg-column {
+  width: 75px;
+  height: 100%;
+}
+
+.wickerino {
+  background-color: #da8e52;
+}
+
+.basso {
+  background-color: #982816;
+}
+
+.zucche {
+  background-color: #8c2d71;
+}
+
+.allyno {
+  background-color: #614b93;
+}
+
+.yano {
+  background-color: #0d4696;
+}
+
+.luca {
+  background-color: #15283e;
+}
+
+.sgari {
+  background-color: #225d41;
+}
