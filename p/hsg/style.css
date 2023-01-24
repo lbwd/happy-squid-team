@@ -8,6 +8,8 @@ body {
   place-content: center;
   align-items: center;
   height: 100vh;
+  height: calc(var(--vh, 1vh) * 100);
+  overflow: hidden;
 }
 
 .hsg-column {
@@ -45,6 +47,7 @@ body {
 
 .black-cover {
   height: 100vh;
+  height: calc(var(--vh, 1vh) * 100);
   width: 100vw;
   background-color: #212529;
   display: flex;
