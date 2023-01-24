@@ -2,10 +2,11 @@ body {
   margin: 0;
   font-size: 15px;
   font-family: 'Open Sans', sans-serif;
-  color: #212529;
+  color: white;
   background-color: #ded8cc;
   display: flex;
   place-content: center;
+  align-items: center;
   height: 100vh;
 }
 
@@ -42,6 +43,80 @@ body {
   background-color: #225d41;
 }
 
+.black-cover {
+  height: 100vh;
+  width: 100vw;
+  background-color: #212529;
+  display: flex;
+  place-content: center;
+  align-items: center;
+  z-index: 1;
+  position: absolute;
+  top: 0;
+  left: 0;
+  animation: 5s linear 11s 1 fadeOut forwards;
+}
+
+@keyframes fadeOut {
+  0% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0;
+  }
+}
+
+.black-cover > img {
+  position: absolute;
+  opacity: 0;
+  animation: 5s linear 1s 1 fadeIn forwards;
+}
+
+.black-cover > span {
+  position: absolute;
+  opacity: 0;
+  animation: 5s linear 6s 1 fadeIn forwards;
+  font-size: 36px;
+  font-weight: 300;
+  letter-spacing: 12px;
+}
+
+@keyframes fadeIn {
+  0% {
+    opacity: 0;
+  }
+  35% {
+    opacity: 1;
+  }
+  65% {
+    opacity: 1;
+  }
+  99% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 0;
+    visibility: hidden;
+  }
+}
+
+body > span {
+  position: absolute;
+  opacity: 0;
+  animation: 5s linear 16s 1 fadeInStop forwards;
+  font-size: 36px;
+  font-weight: 300;
+}
+
+@keyframes fadeInStop {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
 @media (max-width: 1000px) {
   .hsg-column {
     width: 50px;
@@ -51,5 +126,14 @@ body {
 @media (max-width: 750px) {
   .hsg-column {
     width: 40px;
+  }
+
+  .black-cover > img {
+    width: 400px;
+  }
+
+  .black-cover > span {
+    font-size: 24px;
+    letter-spacing: 8px;
   }
 }
