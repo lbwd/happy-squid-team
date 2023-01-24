@@ -41,3 +41,15 @@ body {
 .sgari {
   background-color: #225d41;
 }
+
+@media (max-width: 1000px) {
+  .hsg-column {
+    width: 50px;
+  }
+}
+
+@media (max-width: 750px) {
+  .hsg-column {
+    width: 40px;
+  }
+}
