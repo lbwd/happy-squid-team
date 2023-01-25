@@ -157,3 +157,13 @@ body {
     transform: rotate(-90deg);
   }
 }
+
+@media (max-width: 500px) {
+  .hsg-column {
+    width: 30px;
+  }
+
+  .black-cover > img {
+    width: 300px;
+  }
+}
