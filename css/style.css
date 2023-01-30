@@ -198,6 +198,11 @@ h3 {
   padding-left: 15px;
 }
 
+.timeline-content a.hsg-link {
+  color: #212529;
+  text-decoration: none;
+}
+
 table {
   min-width: 560px;
   border: 1px solid #bbbbbb;
