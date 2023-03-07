@@ -1,0 +1,98 @@
+body {
+  margin: 0;
+}
+
+div.main {
+  height: 100vh;
+  overflow: hidden;
+}
+
+ul#list {
+  list-style-type: none;
+  position: relative;
+  font-family: 'Open Sans', sans-serif;
+  top: 30%;
+  font-size: 26px;
+  animation: slide 24s linear forwards;
+}
+
+@keyframes slide {
+  0% {
+    margin-top: 0;
+  }
+  17% {
+    margin-top: 0;
+  }
+  18% {
+    margin-top: -7.5em;
+  }
+  33% {
+    margin-top: -7.5em;
+  }
+  34% {
+    margin-top: -15em;
+  }
+  49% {
+    margin-top: -15em;
+  }
+  50% {
+    margin-top: -22.5em;
+  }
+  66% {
+    margin-top: -22.5em;
+  }
+  67% {
+    margin-top: -30em;
+  }
+  83% {
+    margin-top: -30em;
+  }
+  84% {
+    margin-top: -37.5em;
+  }
+  99% {
+    margin-top: -37.5em;
+  }
+  100% {
+    margin-top: -45em;
+  }
+}
+
+li {
+  opacity: 0.2;
+  margin-bottom: 6em;
+}
+
+li.hidden {
+  visibility: hidden;
+}
+
+li.active {
+  animation: highlight 0.5s linear forwards;
+}
+
+@keyframes highlight {
+  from {
+    opacity: 0.2;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+span.emoji {
+  opacity: 0;
+}
+
+li.active span.emoji {
+  animation: show 0.5s linear 1s forwards;
+}
+
+@keyframes show {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
