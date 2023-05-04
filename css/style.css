@@ -337,6 +337,7 @@ footer a {
   align-items: center;
   font-size: 16px;
   transition: background-color 0.4s linear;
+  cursor: pointer;
 }
 
 .navigation-column .nav-button.selected {
